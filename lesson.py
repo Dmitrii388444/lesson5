@@ -2,12 +2,12 @@
 
 def is_prime(n):
     a = 2
-    while num > a:
-        if num % a == 0:
+    while n > a:
+        if n % a == 0:
             break
         a += 1
     return a == n
-print(is_prime(96969))
+print(is_prime(769))
 
 # выводит список всех делителей числа;
 def all_dividers(n):
